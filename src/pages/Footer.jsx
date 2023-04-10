@@ -15,7 +15,7 @@ const Footer = () => {
                     }`}
                     onClick={() => {
                         setActive(4);
-                        navigate("/contact");
+                        navigate("/portfolio_2/contact");
                     }}>
                     _higher me
                 </div>

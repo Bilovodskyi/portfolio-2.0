@@ -15,7 +15,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => {
                     setActive(1);
-                    navigate("/");
+                    navigate("/portfolio_2/");
                 }}>
                 _hello
             </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => {
                     setActive(2);
-                    navigate("/skills");
+                    navigate("/portfolio_2/skills");
                 }}>
                 _skills
             </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => {
                     setActive(3);
-                    navigate("/my-projects");
+                    navigate("/portfolio_2/my-projects");
                 }}>
                 _projects
             </div>

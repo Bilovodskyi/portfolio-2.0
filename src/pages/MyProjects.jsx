@@ -192,8 +192,8 @@ const MyProjects = () => {
                                 <Link
                                     to={
                                         project.comingSoon
-                                            ? "/coming-soon"
-                                            : `/my-projects/:${project.id}`
+                                            ? "/portfolio_2/coming-soon"
+                                            : `/portfolio_2/my-projects/:${project.id}`
                                     }
                                     ref={refs[project.id]}
                                     onMouseMove={(e) =>
