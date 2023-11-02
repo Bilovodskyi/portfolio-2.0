@@ -2,14 +2,11 @@
     "name": "portfolio-project-2",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://Bilovodskyi.github.io/portfolio_2.git",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "preview": "vite preview"
     },
     "dependencies": {
         "framer-motion": "^10.9.1",

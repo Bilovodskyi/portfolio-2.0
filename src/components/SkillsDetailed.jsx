@@ -9,33 +9,27 @@ const SkillsDetailed = () => {
                 <MiddleCard text="TypeScript" />
                 <BigCard text="JavaScript" />
                 <MiddleCard text="Next.js" />
-                <SmallCard text="CSS Modules" />
-                <SmallCard
-                    text="React
-                Router"
-                />
+                <SmallCard text="Figma" />
+                <SmallCard text="tRPC" />
                 <MiddleCard text="React" />
                 <MiddleCard
                     text="Node.js
                 Express"
                 />
-                <SmallCard text="MongoDB" />
+                <SmallCard text="Material UI" />
                 <SmallCard text="Redux" />
-                <SmallCard text="Context API" />
-                <SmallCard
-                    text="React
-                Native"
-                />
-                <SmallCard text="Netlify" />
+                <SmallCard text="Styled Components" />
+                <SmallCard text="Prisma" />
+                <SmallCard text="JWT" />
 
                 <MiddleCard text="Firebase" />
                 <SmallCard text="RESTfull API" />
                 <SmallCard text="HTML & CSS" />
-                <MiddleCard text="Figma" />
+                <MiddleCard text="PostgreSQL" />
                 <SmallCard text="Testing" />
                 <BigCard text="Python" />
                 <SmallCard text="Strapi" />
-                <MiddleCard text="Material UI" />
+                <MiddleCard text="MongoDB" />
                 <MiddleCard text="Tailwind" />
                 <SmallCard text="Github & Git" />
             </div>
@@ -49,26 +43,20 @@ const SkillsDetailed = () => {
                     text="Node.js
                 Express"
                 />
-                <SmallCard
-                    text="React
-                Router"
-                />
+                <SmallCard text="Figma" />
                 <BigCard text="JavaScript" />
                 <SmallCard text="Redux" />
                 <BigCard text="Python" />
-                <SmallCard
-                    text="React
-                Native"
-                />
+                <SmallCard text="tRPC" />
                 <SmallCard text="RESTfull API" />
                 <MiddleCard text="Firebase" />
-                <MiddleCard text="Figma" />
+                <MiddleCard text="PostgreSQL" />
                 <MiddleCard text="Material UI" />
                 <MiddleCard text="Tailwind" />
-                <SmallCard text="CSS Modules" />
+                <SmallCard text="Styled Components" />
                 <SmallCard text="MongoDB" />
-                <SmallCard text="Context API" />
-                <SmallCard text="Netlify" />
+                <SmallCard text="Prisma" />
+                <SmallCard text="JWT" />
 
                 <SmallCard text="Testing" />
                 <SmallCard text="Strapi" />

@@ -17,7 +17,7 @@ const AboutCard = ({ shadow, children, style }) => {
                         portfolio/about-me/life
                     </div>
                 </div>
-                <div className="w-full h-[90%] rounded-[10px] border border-light-main">
+                <div className="w-full h-[90%] rounded-[10px] border border-light-main p-10 text-[1rem]">
                     {children}
                 </div>
 

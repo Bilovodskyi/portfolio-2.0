@@ -15,7 +15,7 @@ const Hello = () => {
     }, []);
 
     return (
-        <div className="flex h-mobile lg:h-100 max-[1024px]:flex-col max-[1024px]:flex-col-reverse max-[1024px]:justify-around relative">
+        <div className="flex h-mobile lg:h-100 max-[1024px]:flex-col-reverse max-[1024px]:justify-around relative">
             <div className="lg:w-1/2 ml-6 md:ml-40 flex flex-col justify-center items-start">
                 {/* <p className="w-full text-[1rem]">hello, I'm</p> */}
                 <AnimatedText
@@ -57,7 +57,7 @@ const Hello = () => {
                 className="lg:w-1/2 flex justify-center items-center">
                 <motion.div
                     variants={fadeIn}
-                    className="h-[100%] sm:h-[300px] lg:h-[60%] relative">
+                    className="h-[400px] lg:h-[60%] relative">
                     <img
                         src="bg-main.png"
                         alt="main background"
@@ -66,7 +66,7 @@ const Hello = () => {
                 </motion.div>
                 <motion.div
                     variants={fadeIn}
-                    className="h-[65%] sm:h-[50%] lg:h-[80%] absolute top-0">
+                    className="h-[65%] lg:h-[80%] absolute top-0">
                     <img src="my-img.png" alt="my photo" className="h-[100%]" />
                 </motion.div>
                 <motion.div

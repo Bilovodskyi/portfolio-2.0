@@ -20,29 +20,29 @@ const Layout = () => {
 
 const router = createBrowserRouter([
     {
-        path: "/portfolio_2/",
+        path: "/",
         element: <Layout />,
         children: [
             {
-                path: "/portfolio_2/",
+                path: "/",
                 element: <Home />,
             },
 
             {
-                path: "/portfolio_2/skills",
+                path: "/skills",
                 element: <Skills />,
             },
             {
-                path: "/portfolio_2/my-projects",
+                path: "/my-projects",
                 element: <MyProjects />,
             },
 
             {
-                path: "/portfolio_2/my-projects/:id",
+                path: "/my-projects/:id",
                 element: <Project />,
             },
             {
-                path: "/portfolio_2/contact",
+                path: "/contact",
                 element: <Contact />,
             },
             {
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: "/portfolio_2/coming-soon",
+                path: "/coming-soon",
                 element: <ComingSoon />,
             },
         ],

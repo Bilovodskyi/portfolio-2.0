@@ -86,7 +86,11 @@ const SkillsFeatured = () => {
                     </p>
                 </div>
                 <AboutCard style="top-[13%] sm:max-xl:top-[19%] xl:top-[7%] sm:max-lg:m-auto sm:max-lg:right-[5%] right-[-30px] opacity-30 w-[450px] xl:w-[500px] h-[270px] xl:h-[300px] z-[3]" />
-                <AboutCard style="top-[-28%] sm:max-xl:top-[-22%] xl:top-[-40%] sm:max-lg:m-auto sm:max-lg:right-[0] right-[-60px] w-[450px] xl:w-[500px] h-[270px] xl:h-[300px] z-[3]" />
+
+                <AboutCard style="top-[-28%] sm:max-xl:top-[-22%] xl:top-[-40%] sm:max-lg:m-auto sm:max-lg:right-[0] right-[-60px] w-[450px] xl:w-[500px] h-[270px] xl:h-[300px] z-[3]">
+                    Skills of working with Front-end technologies like: React,
+                    JavaScript, TypeScript. <br /> Back-end skills: Express.js
+                </AboutCard>
             </div>
             <div
                 ref={secondCardRef}
@@ -109,14 +113,14 @@ const SkillsFeatured = () => {
                         just a few of many
                     </div>
                     <div className="w-full h-[90%] border border-light-main grid grid-cols-2 grid-rows-4">
-                        <Field />
-                        <Field />
-                        <Field />
-                        <Field />
-                        <Field />
-                        <Field />
-                        <Field />
-                        <Field />
+                        <Field skill={"Bias for action"} />
+                        <Field skill={"Critical thinking"} />
+                        <Field skill={"Team player"} />
+                        <Field skill={"Problem solving"} />
+                        <Field skill={"Time management"} />
+                        <Field skill={"Adaptability"} />
+                        <Field skill={"Empathy"} />
+                        <Field skill={"Friendly personality"} />
                     </div>
                 </div>
             </div>

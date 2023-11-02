@@ -33,7 +33,7 @@ const MyProjects = () => {
                             <p>filter_by_technology</p>
                         </div>
                         <div
-                            className="flex items-center gap-[7px] cursor-pointer"
+                            className="hidden md:flex items-center gap-[7px] cursor-pointer"
                             onClick={() => setPickedProject("all")}>
                             <img
                                 src="document.png"
@@ -192,8 +192,8 @@ const MyProjects = () => {
                                 <Link
                                     to={
                                         project.comingSoon
-                                            ? "/portfolio_2/coming-soon"
-                                            : `/portfolio_2/my-projects/:${project.id}`
+                                            ? "/coming-soon"
+                                            : `/my-projects/:${project.id}`
                                     }
                                     ref={refs[project.id]}
                                     onMouseMove={(e) =>
@@ -206,7 +206,8 @@ const MyProjects = () => {
                                         <div
                                             className="list-image"
                                             style={{
-                                                backgroundImage: `url(background-${project.id}.png)`,
+                                                // backgroundImage: `url(background-${project.id}.png)`,
+                                                backgroundImage: `url(${project.id}/img-1.png)`,
                                             }}
                                         />
                                     </div>

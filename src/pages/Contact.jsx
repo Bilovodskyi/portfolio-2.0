@@ -40,21 +40,23 @@ const Contact = () => {
                         </div>
 
                         <div className="flex flex-col gap-[20px] p-[25px]">
-                            <div className="flex items-center gap-[10px]">
+                            {/* <div className="flex items-center gap-[10px]">
                                 <img
                                     src="facebook.png"
                                     alt="facebook"
                                     className="h-[20px]"
                                 />
                                 <p>facebook.com</p>
-                            </div>
+                            </div> */}
                             <div className="flex items-center gap-[10px]">
                                 <img
                                     src="linkedin.png"
                                     alt="linkedIn"
                                     className="h-[20px]"
                                 />
-                                <p>linkedIn.com/my-acc</p>
+                                <p>
+                                    www.linkedin.com/in/bohdan-bilovodskyi-0437241b7
+                                </p>
                             </div>
                             <div className="flex items-center gap-[10px]">
                                 <img

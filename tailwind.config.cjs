@@ -19,7 +19,7 @@ module.exports = {
             gold: "#E7AB41",
         },
         height: {
-            mobile: "calc(100vh - 120px)",
+            mobile: "calc(100vh - 50px)",
             100: "calc(100vh - 80px)",
             full: "100%",
         },

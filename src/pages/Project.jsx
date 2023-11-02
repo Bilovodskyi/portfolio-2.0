@@ -29,6 +29,8 @@ const Project = () => {
         setInitialValue((prev) => prev + value);
     };
 
+    console.log(imagePath);
+
     return (
         <div className="lg:h-100 lg:flex">
             <div className="w-[100px] h-full border-r border-light-main p-[10px] hidden md:flex items-start">
